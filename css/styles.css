@@ -125,14 +125,24 @@ nav {
  * Cards
  *********************************************************/
 .card {
-    width: 80%;
+    width: 92%;
     margin: 10% auto;
     padding: 80px 0;
     background-color: white;
     text-align: center;
     color: #555555;
-    box-shadow: 0 0 10px 0  rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 4px;
+}
+
+.col:first-of-type .card {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.col:last-of-type .card {
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .card-text-wrapper {
