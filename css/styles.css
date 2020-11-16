@@ -286,3 +286,78 @@ nav {
     background-color: rgba(255, 255, 255, 0.95);
     z-index: -1;
 }
+
+/*********************************************************
+ * Footer
+ *********************************************************/
+footer {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #111111;
+}
+
+footer .row {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .copyright {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.pad-right-60 {
+    padding-right: 60px;
+}
+
+.pad-left-60 {
+    padding-left: 60px;
+}
+
+footer .col-header {
+    margin-bottom: 40px;
+    font-size: 1.1;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer .col:first-of-type .col-header {
+    font-size: 1.5em;
+}
+
+footer p {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.7em;
+}
+
+footer .col:nth-of-type(2) p {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .col:nth-of-type(2) p:first-of-type {
+    padding: 0;
+    border: none;
+}
+
+footer .col:nth-of-type(2) p:last-of-type {
+    border: none;
+}
+
+footer .col:nth-of-type(3) p {
+    padding: 10px 0;
+}
+
+footer .col:nth-of-type(3) p:first-of-type {
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    color:  rgba(206,27,40,0.7);
+}
