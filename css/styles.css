@@ -148,6 +148,34 @@ nav {
     line-height: 1.7em;
 }
 
+.card-quote {
+    padding: 20px 0 20px 30px;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.7em;
+    border-left: 8px solid rgba(0, 0, 0, 0.3);
+}
+
+.card-profile {
+    margin-top: 40px;
+}
+
+.card-profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+}
+
+.card-profile-text {
+    padding: 22px 0;
+    font-size: 0.8em;
+}
+
+.card-profile-text span {
+    color: rgb(206,27,60);
+}
+
 /*********************************************************
  * Section
  *********************************************************/
@@ -228,5 +256,33 @@ nav {
     width: 100%;
     height: 100%;
     background-color: rgba(206,27,40,0.3);
+    z-index: -1;
+}
+
+/*********************************************************
+ * Section 4
+ *********************************************************/
+.section:nth-of-type(4) .section-header {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section:nth-of-type(4) {
+    position: relative;
+    background-image: url(https://templated.co/items/demos/industrious/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.section:nth-of-type(4):after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: -1;
 }
