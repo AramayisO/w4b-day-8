@@ -44,6 +44,7 @@ nav {
     top: 0;
     width: 100%;
     background-color: rgb(17, 17, 17);
+    z-index: 9999;
 }
 
 .nav-logo {
